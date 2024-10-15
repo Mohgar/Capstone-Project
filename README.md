@@ -40,5 +40,5 @@ The Movie Review API is a web service built using Django and Django REST Framewo
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/movie-review-api.git
-   cd movie-review-api
+   git clone (https://github.com/Mohgar/Capstone-Project.git)
+   cd movie_reviews_API
