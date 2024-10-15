@@ -30,6 +30,6 @@ urlpatterns = [
     path('reviews/<int:review_id>/comments/<int:pk>/', ReviewCommentRetrieveUpdateDestroyView.as_view()), # Retrieve, update, and delete comments
 
     # likes URLs
-    path('reviews/<int:review_id>/likes/', ReviewLikeListCreateView.as_view()),  # List and create list
+    path('reviews/<int:review_id>/likes/', ReviewLikeListCreateView.as_view()),  # List and create likes
     path('reviews/<int:review_id>/likes/<int:pk>/', ReviewLikeRetrieveUpdateDestroyView.as_view()), # Retrieve, update, and delete likes
 ]
